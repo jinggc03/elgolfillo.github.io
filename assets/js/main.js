@@ -6,6 +6,7 @@ const metaDescription = document.getElementById("meta-description");
 const metaKeywords = document.getElementById("meta-keywords");
 const brandLink = document.getElementById("site-brand");
 const siteNav = document.getElementById("site-nav");
+const languageSwitcher = document.getElementById("language-switcher");
 const headerLinkedIn = document.getElementById("header-linkedin");
 const footerCopy = document.getElementById("footer-copy");
 const menuToggle = document.querySelector(".menu-toggle");
@@ -354,6 +355,12 @@ function renderLanguage(lang) {
   brandLink.textContent = content.header.brand;
   headerLinkedIn.textContent = content.header.linkedinLabel;
   footerCopy.textContent = content.footer.copy;
+  if (languageSwitcher) {
+    languageSwitcher.setAttribute("aria-label", content.ui.languageSwitcherLabel);
+  }
+  languageButtons.forEach((button) => {
+    button.textContent = content.ui.languageButtons[button.dataset.langTarget] || button.dataset.langTarget.toUpperCase();
+  });
 
   siteNav.innerHTML = content.nav
     .map((item) => `<a href="#${escapeHtml(item.id)}">${escapeHtml(item.label)}</a>`)

@@ -1,5 +1,12 @@
 window.SITE_CONTENT = {
   en: {
+    ui: {
+      languageSwitcherLabel: "Language switcher",
+      languageButtons: {
+        en: "EN",
+        es: "ES",
+      },
+    },
     meta: {
       title: "Jing Guan Chong | Data & AI Systems Engineer",
       description:
@@ -170,6 +177,13 @@ window.SITE_CONTENT = {
     },
   },
   es: {
+    ui: {
+      languageSwitcherLabel: "Selector de idioma",
+      languageButtons: {
+        en: "EN",
+        es: "ES",
+      },
+    },
     meta: {
       title: "Jing Guan Chong | Data & AI Systems Engineer",
       description:

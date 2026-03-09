@@ -564,6 +564,41 @@ h3 {
   font-size: 0.9rem;
 }
 
+.systems-card {
+  gap: 16px;
+}
+
+.systems-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.systems-list li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.systems-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-warm) 100%);
+}
+
+.systems-note {
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
 .global-card {
   display: grid;
   gap: 14px;

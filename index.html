@@ -11,6 +11,7 @@
       content="Jing Guan Chong builds data platforms, AI systems, and intelligent agents for real-world teams and operations."
     />
     <meta
+      id="meta-keywords"
       name="keywords"
       content="Data & AI Systems Engineer, AI systems, data platforms, intelligent agents, analytics, decision systems, Decathlon, MIT Professional Education, StartMotion Auto"
     />
@@ -18,12 +19,13 @@
     <meta name="theme-color" content="#152221" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <script src="content/site-content.js" defer></script>
     <script src="assets/js/main.js" defer></script>
   </head>
   <body data-language="en">
     <div class="site-shell">
       <header class="site-header" id="top">
-        <a class="site-brand" href="#hero">Jing Guan Chong</a>
+        <a class="site-brand" href="#hero" id="site-brand"></a>
 
         <button
           class="menu-toggle"
@@ -37,13 +39,7 @@
           <span></span>
         </button>
 
-        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-          <a href="#hero" data-i18n="nav.hero">Hero</a>
-          <a href="#about" data-i18n="nav.about">About</a>
-          <a href="#build" data-i18n="nav.build">What I Build</a>
-          <a href="#work" data-i18n="nav.work">Current Work</a>
-          <a href="#contact" data-i18n="nav.contact">Contact</a>
-        </nav>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation"></nav>
 
         <div class="header-tools">
           <div class="language-switcher" role="group" aria-label="Language switcher">
@@ -53,319 +49,24 @@
 
           <a
             class="header-link"
+            id="header-linkedin"
             href="https://www.linkedin.com/in/jingchong/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
+          ></a>
         </div>
       </header>
 
       <main class="site-main">
-        <section class="hero section-card" id="hero">
-          <div class="hero-copy" data-reveal>
-            <p class="eyebrow" data-i18n="hero.eyebrow">Data &amp; AI Systems Engineer</p>
-            <h1 data-i18n="hero.headline">
-              Engineer building intelligent systems powered by data and AI.
-            </h1>
-            <p class="hero-summary" data-i18n="hero.summary">
-              I build data platforms, AI systems, and intelligent agent experiences that help
-              teams move from information to action in real operating environments.
-            </p>
-
-            <ul class="role-list">
-              <li data-i18n="hero.role1">Data &amp; AI Systems Engineer at Decathlon</li>
-              <li data-i18n="hero.role2">Learning Facilitator at MIT Professional Education</li>
-              <li data-i18n="hero.role3">Cofounder at StartMotion Auto</li>
-            </ul>
-
-            <div class="contexts-strip" data-reveal>
-              <p class="signal-caption" data-i18n="hero.contextsLabel">Working across</p>
-              <div class="signal-strip" aria-label="Credibility signals">
-                <span class="signal-logo">
-                  <img src="assets/img/logos/mit-professional-education.png" alt="MIT Professional Education logo" />
-                </span>
-                <span class="signal-logo">
-                  <img src="assets/img/logos/global-alumni.png" alt="Global Alumni logo" />
-                </span>
-                <span class="signal-logo signal-logo-decathlon">
-                  <img src="assets/img/logos/decathlon.png" alt="Decathlon logo" />
-                </span>
-                <span class="signal-badge" data-i18n="hero.startmotionBadge">StartMotion Auto</span>
-              </div>
-            </div>
-          </div>
-
-          <aside class="hero-aside" data-reveal>
-            <div class="portrait-panel">
-              <div class="portrait-card">
-                <img
-                  src="assets/img/portrait/main_photo.jpg"
-                  alt="Portrait of Jing Guan Chong"
-                  data-i18n-attr="alt:hero.photoAlt"
-                />
-              </div>
-
-              <div class="focus-card">
-                <p class="focus-label" data-i18n="hero.focusLabel">Current focus</p>
-                <p class="focus-term" id="rotating-term" aria-live="polite">AI Systems Engineering</p>
-                <p class="focus-copy" data-i18n="hero.focusBody">
-                  Building systems used by real teams across operations, analytics, and applied AI.
-                </p>
-              </div>
-            </div>
-          </aside>
-        </section>
-
-        <section class="section-card" id="about" data-reveal>
-          <div class="section-heading">
-            <p class="section-kicker" data-i18n="about.kicker">About</p>
-            <h2 data-i18n="about.title">Systems thinking with operational depth.</h2>
-          </div>
-
-          <div class="about-grid">
-            <div class="copy-stack" data-reveal>
-              <p data-i18n="about.p1">
-                Over 18+ years, I have worked across infrastructure, enterprise systems, data
-                engineering, analytics, and AI in large-scale operational environments. The
-                common thread is systems thinking: understanding how data, software, and teams
-                interact under real constraints.
-              </p>
-              <p data-i18n="about.p2">
-                Today my focus is on designing systems that connect data pipelines, analytical
-                layers, models, and user workflows into practical decision systems. The goal is
-                not AI for its own sake, but intelligent systems that are usable, reliable, and
-                valuable in day-to-day operations.
-              </p>
-            </div>
-
-            <div class="about-aside">
-              <aside class="positioning-note" data-reveal>
-                <p class="positioning-quote" data-i18n="about.note">
-                  I design and build intelligent systems powered by data and AI, used by real
-                  teams to support decision-making and operations.
-                </p>
-
-                <ul class="meta-list">
-                  <li>
-                    <span data-i18n="about.fact1Label">Based in</span>
-                    <strong data-i18n="about.fact1Value">Madrid, Spain</strong>
-                  </li>
-                  <li>
-                    <span data-i18n="about.fact2Label">Working across</span>
-                    <strong data-i18n="about.fact2Value">Data, AI, and product systems</strong>
-                  </li>
-                  <li>
-                    <span data-i18n="about.fact3Label">Languages</span>
-                    <strong data-i18n="about.fact3Value">English and Spanish</strong>
-                  </li>
-                  <li>
-                    <span data-i18n="about.fact4Label">Built for</span>
-                    <strong data-i18n="about.fact4Value">Real teams and operational contexts</strong>
-                  </li>
-                </ul>
-              </aside>
-
-              <aside class="global-card" data-reveal>
-                <p class="card-tag" data-i18n="about.globalTag">International context</p>
-                <h3 data-i18n="about.globalTitle">Based in Madrid, working internationally.</h3>
-                <p data-i18n="about.globalBody">
-                  Experience across Europe, the Americas, the Middle East, and Asia in
-                  operational and cross-cultural environments.
-                </p>
-                <div class="global-map-frame">
-                  <img
-                    src="assets/img/illustrations/world-map.png"
-                    alt="Stylized world map highlighting regions of international experience"
-                    data-i18n-attr="alt:about.mapAlt"
-                  />
-                </div>
-              </aside>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-card" id="build" data-reveal>
-          <div class="section-heading">
-            <p class="section-kicker" data-i18n="build.kicker">What I Build</p>
-            <h2 data-i18n="build.title">System design shaped by production realities.</h2>
-            <p class="section-intro" data-i18n="build.intro">
-              The work sits between architecture, delivery, and adoption. Each system type is
-              designed to be useful in production, not just compelling in a demo.
-            </p>
-          </div>
-
-          <div class="card-grid build-grid">
-            <article class="content-card" data-reveal>
-              <p class="card-tag" data-i18n="build.ai.tag">System type</p>
-              <h3 data-i18n="build.ai.title">AI Systems</h3>
-              <p data-i18n="build.ai.body">
-                Design and implementation of AI systems that support decision-making, business
-                processes, and operational workflows through retrieval, model orchestration, and
-                clear interfaces.
-              </p>
-            </article>
-
-            <article class="content-card" data-reveal>
-              <p class="card-tag" data-i18n="build.data.tag">System type</p>
-              <h3 data-i18n="build.data.title">Data Platforms</h3>
-              <p data-i18n="build.data.body">
-                Large-scale data platforms that connect pipelines, storage, analytics, and
-                reporting layers so teams can work from consistent, trusted information.
-              </p>
-            </article>
-
-            <article class="content-card" data-reveal>
-              <p class="card-tag" data-i18n="build.agents.tag">System type</p>
-              <h3 data-i18n="build.agents.title">Intelligent Agents</h3>
-              <p data-i18n="build.agents.body">
-                Agent-based architectures that interact with users and enterprise tools,
-                coordinate tasks, and keep humans in the loop where judgment and control matter.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section-card" id="work" data-reveal>
-          <div class="section-heading">
-            <p class="section-kicker" data-i18n="work.kicker">Current Work</p>
-            <h2 data-i18n="work.title">Three contexts, one systems engineering narrative.</h2>
-            <p class="section-intro" data-i18n="work.intro">
-              Current work spans enterprise operations, executive education, and product
-              experimentation. Each role reinforces a different part of the same systems
-              engineering story.
-            </p>
-          </div>
-
-          <div class="card-grid current-work-grid">
-            <article class="content-card work-card work-card-featured" data-reveal>
-              <p class="card-tag" data-i18n="work.decathlon.tag">Operating at scale</p>
-              <h3 data-i18n="work.decathlon.title">Decathlon</h3>
-              <p class="card-role" data-i18n="work.decathlon.role">
-                Data &amp; AI Systems Engineer
-              </p>
-              <p data-i18n="work.decathlon.body">
-                Building data platforms, analytics capabilities, decision systems, and emerging
-                agent architectures that support operational teams working at scale.
-              </p>
-            </article>
-
-            <article class="content-card work-card" data-reveal>
-              <p class="card-tag" data-i18n="work.mit.tag">Executive education</p>
-              <h3 data-i18n="work.mit.title">MIT Professional Education</h3>
-              <p class="card-role" data-i18n="work.mit.role">Learning Facilitator</p>
-              <p data-i18n="work.mit.body">
-                Facilitating learning in Generative AI and digital transformation, helping
-                professionals connect technical possibilities with execution in real
-                organizations.
-              </p>
-            </article>
-
-            <article class="content-card work-card" data-reveal>
-              <p class="card-tag" data-i18n="work.startmotion.tag">Product experimentation</p>
-              <h3 data-i18n="work.startmotion.title">StartMotion Auto</h3>
-              <p class="card-role" data-i18n="work.startmotion.role">Cofounder</p>
-              <p data-i18n="work.startmotion.body">
-                Exploring product thinking, experimentation, and the design of an AI plus data
-                platform around the second life of vehicles.
-              </p>
-            </article>
-          </div>
-
-          <div class="highlights-block" data-reveal>
-            <div class="section-heading section-heading-compact">
-              <p class="section-kicker" data-i18n="highlights.kicker">Selected Highlights</p>
-              <h3 data-i18n="highlights.title">System types and outcomes.</h3>
-              <p class="section-intro" data-i18n="highlights.intro">
-                A complementary view of the kinds of systems built and the outcomes they are
-                designed to unlock.
-              </p>
-            </div>
-
-            <div class="card-grid highlights-grid">
-              <article class="content-card highlight-card" data-reveal>
-                <p class="card-tag" data-i18n="highlights.one.tag">System type</p>
-                <h3 data-i18n="highlights.one.title">AI &amp; Analytics Systems</h3>
-                <p data-i18n="highlights.one.body">
-                  Decision-support systems that combine pipelines, analytics layers, and
-                  business logic to improve operational visibility and guide faster action.
-                </p>
-                <p class="highlight-outcome" data-i18n="highlights.one.outcome">
-                  Outcome: clearer visibility, tighter feedback loops, and better operational
-                  decisions.
-                </p>
-              </article>
-
-              <article class="content-card highlight-card" data-reveal>
-                <p class="card-tag" data-i18n="highlights.two.tag">System type</p>
-                <h3 data-i18n="highlights.two.title">Agent-Based Architectures</h3>
-                <p data-i18n="highlights.two.body">
-                  Enterprise-oriented agent patterns that connect user intent, internal tools,
-                  contextual data, and human oversight in a controlled workflow.
-                </p>
-                <p class="highlight-outcome" data-i18n="highlights.two.outcome">
-                  Outcome: better workflow coordination, faster execution, and stronger
-                  human-in-the-loop control.
-                </p>
-              </article>
-
-              <article class="content-card highlight-card" data-reveal>
-                <p class="card-tag" data-i18n="highlights.three.tag">System type</p>
-                <h3 data-i18n="highlights.three.title">Data Platform Design</h3>
-                <p data-i18n="highlights.three.body">
-                  Scalable data foundations that bring ingestion, transformation, analytical
-                  layers, and business-facing outputs into one coherent architecture.
-                </p>
-                <p class="highlight-outcome" data-i18n="highlights.three.outcome">
-                  Outcome: more reliable data flows, better decision support, and stronger
-                  platform reuse.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-card contact-section" id="contact" data-reveal>
-          <div class="section-heading">
-            <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
-            <h2 data-i18n="contact.title">
-              Open to selected collaborations and technical conversations.
-            </h2>
-            <p class="section-intro" data-i18n="contact.intro">
-              If you are working on data platforms, decision systems, or intelligent agent
-              experiences, feel free to reach out.
-            </p>
-          </div>
-
-          <div class="contact-grid">
-            <a class="contact-link-card" href="mailto:jingguan.chong@gmail.com">
-              <span data-i18n="contact.emailLabel">Email</span>
-              <strong>jingguan.chong@gmail.com</strong>
-            </a>
-
-            <a
-              class="contact-link-card"
-              href="https://www.linkedin.com/in/jingchong/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span data-i18n="contact.linkedinLabel">LinkedIn</span>
-              <strong>linkedin.com/in/jingchong</strong>
-            </a>
-          </div>
-
-          <p class="contact-note" data-i18n="contact.note">
-            Open to selected collaborations and technical conversations around AI systems, data
-            platforms, and intelligent agents.
-          </p>
-        </section>
+        <section class="hero section-card" id="hero"></section>
+        <section class="section-card" id="about"></section>
+        <section class="section-card" id="build"></section>
+        <section class="section-card" id="work"></section>
+        <section class="section-card contact-section" id="contact"></section>
       </main>
 
       <footer class="site-footer">
-        <p data-i18n="footer.copy">
-          Built as a simple bilingual one-page site. © 2026 Jing Guan Chong.
-        </p>
+        <p id="footer-copy"></p>
       </footer>
     </div>
   </body>

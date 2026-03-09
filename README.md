@@ -11,6 +11,8 @@ Static personal website for Jing Guan Chong.
 ├── README.md
 ├── favicon.ico
 ├── index.html
+├── content
+│   └── site-content.js
 └── assets
     ├── css
     │   └── main.css
@@ -30,6 +32,7 @@ Static personal website for Jing Guan Chong.
 ## Conventions
 
 - `index.html` stays at the repository root for GitHub Pages.
+- Site copy lives in `content/site-content.js`.
 - All site assets live under `assets/`.
 - Images are grouped by purpose: `portrait`, `logos`, and `illustrations`.
 - Logo files use semantic names instead of template-derived names.

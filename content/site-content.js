@@ -61,7 +61,6 @@ window.SITE_CONTENT = {
       facts: [
         { label: "Based in", value: "Madrid, Spain" },
         { label: "Working across", value: "Data, AI, and product systems" },
-        { label: "Languages", value: "English and Spanish" },
         { label: "Built for", value: "Real teams and operational contexts" },
       ],
       systemsTag: "Systems worked on",
@@ -189,7 +188,7 @@ window.SITE_CONTENT = {
       description:
         "Jing Guan Chong diseña plataformas de datos, sistemas de IA y agentes inteligentes para equipos y operaciones reales.",
       keywords:
-        "Data & AI Systems Engineer, sistemas de IA, plataformas de datos, agentes inteligentes, analitica, sistemas de decision, Decathlon, MIT Professional Education, StartMotion Auto",
+        "Data & AI Systems Engineer, sistemas de IA, plataformas de datos, agentes inteligentes, analítica, sistemas de decisión, Decathlon, MIT Professional Education, StartMotion Auto",
     },
     header: {
       brand: "Jing Guan Chong",
@@ -197,7 +196,7 @@ window.SITE_CONTENT = {
     },
     nav: [
       { id: "hero", label: "Inicio" },
-      { id: "about", label: "Sobre mi" },
+      { id: "about", label: "Sobre mí" },
       { id: "build", label: "Lo que construyo" },
       { id: "work", label: "Trabajo actual" },
       { id: "contact", label: "Contacto" },
@@ -206,7 +205,7 @@ window.SITE_CONTENT = {
       eyebrow: "Data & AI Systems Engineer",
       headline: "Ingeniero que construye sistemas inteligentes impulsados por datos e IA.",
       summary:
-        "Construyo plataformas de datos, sistemas de IA y experiencias con agentes inteligentes que ayudan a los equipos a convertir informacion en accion dentro de entornos operativos reales.",
+        "Construyo plataformas de datos, sistemas de IA y experiencias con agentes inteligentes que ayudan a los equipos a convertir información en acción dentro de entornos operativos reales.",
       roles: [
         "Data & AI Systems Engineer en Decathlon",
         "Learning Facilitator en MIT Professional Education",
@@ -216,7 +215,7 @@ window.SITE_CONTENT = {
       startmotionBadge: "StartMotion Auto",
       focusLabel: "Foco actual",
       focusBody:
-        "Construccion de sistemas utilizados por equipos reales en operaciones, analitica e IA aplicada.",
+        "Construcción de sistemas utilizados por equipos reales en operaciones, analítica e IA aplicada.",
       photoAlt: "Retrato de Jing Guan Chong",
       rotatingTerms: ["AI Systems Engineering", "Data Platforms", "Intelligent Agents"],
       logos: [
@@ -226,85 +225,84 @@ window.SITE_CONTENT = {
       ],
     },
     about: {
-      kicker: "Sobre mi",
+      kicker: "Sobre mí",
       title: "Pensamiento de sistemas con profundidad operativa.",
       paragraphs: [
-        "Durante mas de 18 anos he trabajado en infraestructura, sistemas empresariales, ingenieria de datos, analitica e IA dentro de entornos operativos a gran escala. El hilo conductor es el pensamiento sistemico: entender como interactuan datos, software y equipos bajo restricciones reales.",
-        "Antes de centrarme en sistemas de datos e IA, trabaje de cerca con sistemas empresariales, tecnologia para logistica, infraestructura y plataformas operativas. Ese recorrido sigue marcando como diseno para fiabilidad, escala y uso diario en operaciones.",
-        "Hoy mi foco esta en disenar sistemas que conectan pipelines de datos, capas analiticas, modelos y flujos de usuario en sistemas practicos de apoyo a la decision. El objetivo no es la IA por si sola, sino sistemas inteligentes utilizables, fiables y valiosos en la operacion diaria.",
+        "Durante más de 18 años he trabajado en infraestructura, sistemas empresariales, ingeniería de datos, analítica e IA dentro de entornos operativos a gran escala. El hilo conductor ha sido siempre el pensamiento sistémico: entender cómo interactúan los datos, el software y los equipos bajo restricciones reales.",
+        "Antes de centrarme en los sistemas de datos e IA, trabajé de cerca con sistemas empresariales, tecnología para logística, infraestructura y plataformas operativas. Ese recorrido sigue marcando cómo diseño para la fiabilidad, la escala y el uso diario en operaciones.",
+        "Hoy mi foco está en diseñar sistemas que conectan pipelines de datos, capas analíticas, modelos y flujos de usuario en sistemas prácticos de apoyo a la decisión. El objetivo no es la IA por sí sola, sino sistemas inteligentes utilizables, fiables y valiosos en la operación diaria.",
       ],
       note:
-        "Diseno y construyo sistemas inteligentes impulsados por datos e IA, utilizados por equipos reales para apoyar la toma de decisiones y las operaciones.",
+        "Diseño y construyo sistemas inteligentes impulsados por datos e IA, utilizados por equipos reales para apoyar la toma de decisiones y las operaciones.",
       facts: [
-        { label: "Ubicado en", value: "Madrid, Espana" },
+        { label: "Ubicado en", value: "Madrid, España" },
         { label: "Trabajando entre", value: "Sistemas de datos, IA y producto" },
-        { label: "Idiomas", value: "Ingles y espanol" },
         { label: "Construido para", value: "Equipos reales y contextos operativos" },
       ],
-      systemsTag: "Sistemas trabajados",
+      systemsTag: "Sistemas desarrollados",
       systemsTitle: "Sistemas operativos construidos para uso real.",
       systemsIntro:
-        "Ejemplos de sistemas disenados, implementados o evolucionados en contextos de produccion:",
+        "Ejemplos de sistemas diseñados, implementados o evolucionados en contextos de producción:",
       systemsWorkedOn: [
-        "Sistemas de apoyo a la decision",
-        "Plataformas analiticas a gran escala",
-        "Workflows asistidos por agentes",
+        "Sistemas de apoyo a la decisión",
+        "Plataformas analíticas a gran escala",
+        "Flujos de trabajo asistidos por agentes",
       ],
       systemsNote:
-        "Utilizados en entornos donde importan la fiabilidad, la claridad operativa y la adopcion por negocio.",
+        "Utilizados en entornos donde importan la fiabilidad, la claridad operativa y la adopción por parte del negocio.",
       globalTag: "Contexto internacional",
       globalTitle: "Basado en Madrid, trabajando internacionalmente.",
       globalBody:
-        "Experiencia en Europa, America, Oriente Medio y Asia dentro de entornos operativos y de colaboracion intercultural.",
+        "Experiencia en Europa, América, Oriente Medio y Asia dentro de entornos operativos y de colaboración intercultural.",
       mapAlt: "Mapa mundial estilizado con regiones de experiencia internacional",
     },
     build: {
       kicker: "Lo que construyo",
-      title: "Diseno de sistemas guiado por la realidad de produccion.",
+      title: "Diseño de sistemas guiado por la realidad de producción.",
       intro:
-        "El trabajo se situa entre arquitectura, delivery y adopcion. Cada tipo de sistema esta pensado para ser util en produccion, no solo convincente en una demo.",
+        "El trabajo se mueve entre arquitectura, implementación y adopción. Cada tipo de sistema está pensado para ser útil en producción, no solo para resultar convincente en una demo.",
       cards: [
         {
           tag: "Tipo de sistema",
-          title: "AI Systems",
-          body: "Diseno e implementacion de sistemas de IA que apoyan la toma de decisiones, los procesos de negocio y los flujos operativos mediante retrieval, orquestacion de modelos e interfaces claras.",
+          title: "Sistemas de IA",
+          body: "Diseño e implementación de sistemas de IA que apoyan la toma de decisiones, los procesos de negocio y los flujos operativos mediante retrieval, orquestación de modelos e interfaces claras.",
         },
         {
           tag: "Tipo de sistema",
-          title: "Data Platforms",
-          body: "Plataformas de datos a gran escala que conectan pipelines, almacenamiento, analitica y reporting para que los equipos trabajen con informacion consistente y fiable.",
+          title: "Plataformas de datos",
+          body: "Plataformas de datos a gran escala que conectan pipelines, almacenamiento, analítica y reporting para que los equipos trabajen con información consistente y fiable.",
         },
         {
           tag: "Tipo de sistema",
-          title: "Intelligent Agents",
-          body: "Arquitecturas basadas en agentes que interactuan con usuarios y herramientas corporativas, coordinan tareas y mantienen a las personas en el circuito cuando el criterio y el control importan.",
+          title: "Agentes inteligentes",
+          body: "Arquitecturas basadas en agentes que interactúan con usuarios y herramientas corporativas, coordinan tareas y mantienen a las personas en el circuito cuando el criterio y el control importan.",
         },
       ],
     },
     work: {
       kicker: "Trabajo actual",
-      title: "Tres contextos, una misma narrativa de systems engineering.",
+      title: "Tres contextos, una misma narrativa de ingeniería de sistemas.",
       intro:
-        "Mi trabajo actual combina operaciones empresariales, educacion ejecutiva y experimentacion de producto. Cada rol refuerza una parte distinta de la misma historia de systems engineering.",
+        "Mi trabajo actual combina operaciones empresariales, educación ejecutiva y experimentación de producto. Cada rol refuerza una parte distinta de la misma historia de ingeniería de sistemas.",
       cards: [
         {
           tag: "Operando a escala",
           title: "Decathlon",
           role: "Data & AI Systems Engineer",
-          body: "Construyendo plataformas de datos, capacidades analiticas, sistemas de decision y arquitecturas emergentes con agentes para apoyar a equipos operativos que trabajan a gran escala.",
+          body: "Construyendo plataformas de datos, capacidades analíticas, sistemas de decisión y arquitecturas emergentes basadas en agentes para apoyar a equipos operativos que trabajan a gran escala.",
           featured: true,
         },
         {
           tag: "Educacion ejecutiva",
           title: "MIT Professional Education",
           role: "Learning Facilitator",
-          body: "Facilitando aprendizaje en Generative AI y transformacion digital, ayudando a profesionales a conectar las posibilidades tecnicas con la ejecucion en organizaciones reales.",
+          body: "Facilitando aprendizaje en IA generativa y transformación digital, ayudando a profesionales a conectar las posibilidades técnicas con la ejecución en organizaciones reales.",
         },
         {
-          tag: "Experimentacion de producto",
+          tag: "Experimentación de producto",
           title: "StartMotion Auto",
           role: "Cofounder",
-          body: "Explorando product thinking, experimentacion y el diseno de una plataforma de IA y datos alrededor de la segunda vida de los vehiculos.",
+          body: "Explorando product thinking, experimentación y el diseño de una plataforma de IA y datos alrededor de la segunda vida de los vehículos.",
         },
       ],
     },
@@ -316,41 +314,41 @@ window.SITE_CONTENT = {
       cards: [
         {
           tag: "Tipo de sistema",
-          title: "AI & Analytics Systems",
-          body: "Sistemas de apoyo a la decision que combinan pipelines, capas analiticas y logica de negocio para mejorar la visibilidad operativa y orientar una accion mas rapida.",
+          title: "Sistemas de IA y analítica",
+          body: "Sistemas de apoyo a la decisión que combinan pipelines, capas analíticas y lógica de negocio para mejorar la visibilidad operativa y orientar una acción más rápida.",
           outcome:
-            "Resultado: mas visibilidad, ciclos de feedback mas cortos y mejores decisiones operativas.",
+            "Resultado: más visibilidad, ciclos de feedback más cortos y mejores decisiones operativas.",
         },
         {
           tag: "Tipo de sistema",
-          title: "Agent-Based Architectures",
-          body: "Patrones de agentes orientados a empresa que conectan intencion del usuario, herramientas internas, datos contextuales y supervision humana dentro de un flujo controlado.",
+          title: "Arquitecturas basadas en agentes",
+          body: "Patrones de agentes orientados a la empresa que conectan la intención del usuario, herramientas internas, datos contextuales y supervisión humana dentro de un flujo controlado.",
           outcome:
-            "Resultado: mejor coordinacion de workflows, ejecucion mas rapida y mayor control human-in-the-loop.",
+            "Resultado: mejor coordinación de workflows, ejecución más rápida y mayor control con las personas dentro del circuito.",
         },
         {
           tag: "Tipo de sistema",
-          title: "Data Platform Design",
-          body: "Fundaciones de datos escalables que integran ingesta, transformacion, capas analiticas y salidas orientadas a negocio en una arquitectura coherente.",
+          title: "Diseño de plataformas de datos",
+          body: "Plataformas de datos escalables que integran ingesta, transformación, capas analíticas y salidas orientadas a negocio dentro de una arquitectura coherente.",
           outcome:
-            "Resultado: flujos de datos mas fiables, mejor soporte a la decision y mayor reutilizacion de plataforma.",
+            "Resultado: flujos de datos más fiables, mejor soporte a la decisión y mayor reutilización de la plataforma.",
         },
       ],
     },
     contact: {
       kicker: "Contacto",
-      title: "Abierto a colaboraciones seleccionadas y conversaciones tecnicas.",
+      title: "Abierto a colaboraciones seleccionadas y conversaciones técnicas.",
       intro:
-        "Si estas trabajando en plataformas de datos, sistemas de decision o experiencias con agentes inteligentes, puedes escribirme.",
+        "Si estás trabajando en plataformas de datos, sistemas de decisión o experiencias con agentes inteligentes, puedes escribirme.",
       emailLabel: "Email",
       emailValue: "jingguan.chong@gmail.com",
       linkedinLabel: "LinkedIn",
       linkedinValue: "linkedin.com/in/jingchong",
       note:
-        "Abierto a colaboraciones seleccionadas y conversaciones tecnicas sobre sistemas de IA, plataformas de datos y agentes inteligentes.",
+        "Abierto a colaboraciones seleccionadas y conversaciones técnicas sobre sistemas de IA, plataformas de datos y agentes inteligentes.",
     },
     footer: {
-      copy: "Sitio bilingue de una sola pagina construido con HTML, CSS y JavaScript. Copyright 2026 Jing Guan Chong.",
+      copy: "Sitio bilingüe de una sola página construido con HTML, CSS y JavaScript. Copyright 2026 Jing Guan Chong.",
     },
   },
 };

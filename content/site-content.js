@@ -61,7 +61,6 @@ window.SITE_CONTENT = {
       facts: [
         { label: "Based in", value: "Madrid, Spain" },
         { label: "Working across", value: "Data, AI, and product systems" },
-        { label: "Languages", value: "English and Spanish" },
         { label: "Built for", value: "Real teams and operational contexts" },
       ],
       systemsTag: "Systems worked on",
@@ -238,7 +237,6 @@ window.SITE_CONTENT = {
       facts: [
         { label: "Ubicado en", value: "Madrid, Espana" },
         { label: "Trabajando entre", value: "Sistemas de datos, IA y producto" },
-        { label: "Idiomas", value: "Ingles y espanol" },
         { label: "Construido para", value: "Equipos reales y contextos operativos" },
       ],
       systemsTag: "Sistemas trabajados",

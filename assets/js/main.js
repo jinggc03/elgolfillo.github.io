@@ -15,6 +15,8 @@ const sectionRoots = {
   about: document.getElementById("about"),
   build: document.getElementById("build"),
   work: document.getElementById("work"),
+  experience: document.getElementById("experience"),
+  stack: document.getElementById("stack"),
   contact: document.getElementById("contact"),
 };
 const sectionElements = Object.values(sectionRoots).filter(Boolean);
@@ -209,6 +211,54 @@ function renderWork(content) {
   `;
 }
 
+function renderExperience(content) {
+  const items = content.experience.items
+    .map(
+      (item) => `
+        <article class="experience-card" data-reveal>
+          <p class="card-tag">${escapeHtml(item.phase)}</p>
+          <div class="experience-card-head">
+            <h3>${escapeHtml(item.title)}</h3>
+            <p class="experience-label">${escapeHtml(item.label)}</p>
+          </div>
+          <p class="experience-summary">${escapeHtml(item.summary)}</p>
+        </article>
+      `
+    )
+    .join("");
+
+  return `
+    ${renderSectionHeading(content.experience)}
+    <div class="experience-strip">
+      ${items}
+    </div>
+  `;
+}
+
+function renderStack(content) {
+  const groups = content.stack.groups
+    .map(
+      (group) => `
+        <article class="stack-group" data-reveal>
+          <p class="card-tag">${escapeHtml(group.label)}</p>
+          <div class="stack-items">
+            ${group.items
+              .map((item) => `<span class="stack-chip">${escapeHtml(item)}</span>`)
+              .join("")}
+          </div>
+        </article>
+      `
+    )
+    .join("");
+
+  return `
+    ${renderSectionHeading(content.stack)}
+    <div class="stack-grid">
+      ${groups}
+    </div>
+  `;
+}
+
 function renderContact(content) {
   return `
     ${renderSectionHeading(content.contact)}
@@ -370,6 +420,8 @@ function renderLanguage(lang) {
   sectionRoots.about.innerHTML = renderAbout(content);
   sectionRoots.build.innerHTML = renderBuild(content);
   sectionRoots.work.innerHTML = renderWork(content);
+  sectionRoots.experience.innerHTML = renderExperience(content);
+  sectionRoots.stack.innerHTML = renderStack(content);
   sectionRoots.contact.innerHTML = renderContact(content);
 
   updateLanguageButtons(lang);

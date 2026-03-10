@@ -187,7 +187,7 @@ window.SITE_CONTENT = {
     },
     stack: {
       kicker: "Technology Stack",
-      title: "A curated stack shaped by systems work.",
+      title: "A curated stack shaped by real systems work.",
       intro:
         "Selected domains and technologies used most often in production-oriented environments.",
       groups: [
@@ -271,7 +271,11 @@ window.SITE_CONTENT = {
       focusBody:
         "Construcción de sistemas utilizados por equipos reales en operaciones, analítica e IA aplicada.",
       photoAlt: "Retrato de Jing Guan Chong",
-      rotatingTerms: ["AI Systems Engineering", "Data Platforms", "Intelligent Agents"],
+      rotatingTerms: [
+        "Ingeniería de sistemas de IA",
+        "Plataformas de datos",
+        "Agentes inteligentes",
+      ],
       logos: [
         { src: "assets/img/logos/mit-professional-education.png", alt: "Logo de MIT Professional Education" },
         { src: "assets/img/logos/global-alumni.png", alt: "Logo de Global Alumni" },
@@ -347,7 +351,7 @@ window.SITE_CONTENT = {
           featured: true,
         },
         {
-          tag: "Educacion ejecutiva",
+          tag: "Educación ejecutiva",
           title: "MIT Professional Education",
           role: "Learning Facilitator",
           body: "Facilitando aprendizaje en IA generativa y transformación digital, ayudando a profesionales a conectar las posibilidades técnicas con la ejecución en organizaciones reales.",
@@ -390,8 +394,8 @@ window.SITE_CONTENT = {
       ],
     },
     experience: {
-      kicker: "Experience Snapshot",
-      title: "Una vista compacta de la trayectoria y los contextos de trabajo.",
+      kicker: "Trayectoria",
+      title: "Vista compacta de la trayectoria y contextos de trabajo.",
       intro:
         "Tres contextos resumen la trayectoria: escala empresarial, educación ejecutiva y experimentación de producto.",
       items: [
@@ -422,7 +426,7 @@ window.SITE_CONTENT = {
         "Dominios y tecnologías seleccionados por su uso frecuente en entornos orientados a producción.",
       groups: [
         {
-          label: "Lenguajes base",
+          label: "Lenguajes principales",
           items: ["Python", "SQL"],
         },
         {
@@ -438,7 +442,7 @@ window.SITE_CONTENT = {
           items: ["Workflows con LLM", "Sistemas de agentes", "Retrieval", "Personas en el circuito"],
         },
         {
-          label: "Plataformas cloud",
+          label: "Plataformas cloud e infraestructura",
           items: ["AWS", "GCP", "Arquitectura cloud-native"],
         },
       ],

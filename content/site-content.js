@@ -159,6 +159,60 @@ window.SITE_CONTENT = {
         },
       ],
     },
+    experience: {
+      kicker: "Experience Snapshot",
+      title: "A compact view of trajectory and operating contexts.",
+      intro:
+        "Three contexts summarize the trajectory: enterprise scale, executive education, and product experimentation.",
+      items: [
+        {
+          phase: "Operational scale",
+          title: "Decathlon",
+          label: "Enterprise systems, data, AI",
+          summary: "Long-term work across enterprise systems, data platforms, decision systems, and AI in operational environments at scale.",
+        },
+        {
+          phase: "Executive education",
+          title: "MIT Professional Education",
+          label: "Learning Facilitator",
+          summary: "Delivery and facilitation around Generative AI, digital transformation, and practical adoption for senior professionals.",
+        },
+        {
+          phase: "Product experimentation",
+          title: "StartMotion Auto",
+          label: "Cofounder",
+          summary: "Product exploration around an AI plus data platform, experimentation loops, and systems thinking in a new venture context.",
+        },
+      ],
+    },
+    stack: {
+      kicker: "Technology Stack",
+      title: "A curated stack shaped by systems work.",
+      intro:
+        "Selected domains and technologies used most often in production-oriented environments.",
+      groups: [
+        {
+          label: "Core languages",
+          items: ["Python", "SQL"],
+        },
+        {
+          label: "Data platforms",
+          items: ["Data Platforms", "ETL / ELT", "Pipelines", "Model-ready data"],
+        },
+        {
+          label: "Analytics systems",
+          items: ["Decision Systems", "Analytics Layers", "Operational Reporting"],
+        },
+        {
+          label: "LLM / Agent systems",
+          items: ["LLM Workflows", "Agent Systems", "Retrieval", "Human-in-the-loop"],
+        },
+        {
+          label: "Cloud platforms",
+          items: ["AWS", "GCP", "Cloud-native architecture"],
+        },
+      ],
+    },
     contact: {
       kicker: "Contact",
       title: "Open to selected collaborations and technical conversations.",
@@ -332,6 +386,60 @@ window.SITE_CONTENT = {
           body: "Plataformas de datos escalables que integran ingesta, transformación, capas analíticas y salidas orientadas a negocio dentro de una arquitectura coherente.",
           outcome:
             "Resultado: flujos de datos más fiables, mejor soporte a la decisión y mayor reutilización de la plataforma.",
+        },
+      ],
+    },
+    experience: {
+      kicker: "Experience Snapshot",
+      title: "Una vista compacta de la trayectoria y los contextos de trabajo.",
+      intro:
+        "Tres contextos resumen la trayectoria: escala empresarial, educación ejecutiva y experimentación de producto.",
+      items: [
+        {
+          phase: "Escala operativa",
+          title: "Decathlon",
+          label: "Sistemas empresariales, datos, IA",
+          summary: "Trabajo de largo recorrido en sistemas empresariales, plataformas de datos, sistemas de decisión e IA dentro de entornos operativos a gran escala.",
+        },
+        {
+          phase: "Educación ejecutiva",
+          title: "MIT Professional Education",
+          label: "Learning Facilitator",
+          summary: "Facilitación y acompañamiento en torno a IA generativa, transformación digital y adopción práctica para perfiles senior.",
+        },
+        {
+          phase: "Experimentación de producto",
+          title: "StartMotion Auto",
+          label: "Cofounder",
+          summary: "Exploración de producto alrededor de una plataforma de IA y datos, ciclos de experimentación y pensamiento de sistemas en un contexto emprendedor.",
+        },
+      ],
+    },
+    stack: {
+      kicker: "Technology Stack",
+      title: "Un stack curado por el trabajo con sistemas reales.",
+      intro:
+        "Dominios y tecnologías seleccionados por su uso frecuente en entornos orientados a producción.",
+      groups: [
+        {
+          label: "Lenguajes base",
+          items: ["Python", "SQL"],
+        },
+        {
+          label: "Plataformas de datos",
+          items: ["Plataformas de datos", "ETL / ELT", "Pipelines", "Datos preparados para modelos"],
+        },
+        {
+          label: "Sistemas analíticos",
+          items: ["Sistemas de decisión", "Capas analíticas", "Reporting operativo"],
+        },
+        {
+          label: "Sistemas LLM / agentes",
+          items: ["Workflows con LLM", "Sistemas de agentes", "Retrieval", "Personas en el circuito"],
+        },
+        {
+          label: "Plataformas cloud",
+          items: ["AWS", "GCP", "Arquitectura cloud-native"],
         },
       ],
     },

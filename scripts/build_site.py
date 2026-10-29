@@ -1,6 +1,7 @@
 """Generate committed static pages without requiring JavaScript to read them."""
 
 import argparse
+from hashlib import sha256
 from html import escape
 import json
 from pathlib import Path
@@ -127,11 +128,6 @@ def render_page(language, data, identity, template):
         "worksFor": {"@type": "Organization", "name": identity["employer"]},
         "sameAs": [identity["linkedin"]],
     }
-    roles = (
-        f'{escape(identity["job_title"])} · {escape(identity["employer"])}<br>'
-        f'{escape(identity["education_role"])} ·<br>'
-        f'{escape(identity["education_organisation"])}'
-    )
     values.update(
         language=language,
         base=base,
@@ -139,13 +135,13 @@ def render_page(language, data, identity, template):
         site_url=escape(identity["url"]),
         image_url=escape(urljoin(identity["url"], identity["image"])),
         image_path=escape(identity["image"]),
+        css_version=sha256((ROOT / "assets/css/main.css").read_bytes()).hexdigest()[:12],
+        js_version=sha256((ROOT / "assets/js/main.js").read_bytes()).hexdigest()[:12],
         portrait_alt=escape(data["portrait"]),
         name=escape(identity["name"]),
         descriptor=escape(identity["descriptor"]),
-        roles=roles,
         linkedin=escape(identity["linkedin"]),
         email_address=escape(identity["email"]),
-        email_label=escape(data["email"]),
         navigation_label=escape(ui["landmark_nav"]),
         language_label=escape(ui["landmark_language"]),
         skip_label=escape(data["skip"]),

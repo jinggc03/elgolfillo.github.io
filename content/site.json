@@ -4,8 +4,6 @@
     "descriptor": "AI Systems & Platform Engineer",
     "job_title": "Data & AI Engineer",
     "employer": "Decathlon",
-    "education_role": "Learning Facilitator",
-    "education_organisation": "MIT Professional Education",
     "email": "jingguan.chong@gmail.com",
     "linkedin": "https://www.linkedin.com/in/jingchong/",
     "url": "https://jingguanchong.com/",
@@ -114,7 +112,7 @@
         ["Ingeniería Informática", "Universidad Politécnica de Madrid"],
         [
           "Estudios de Ciencias Físicas",
-          "Universidad Complutense de Madrid · Tres años de estudios, sin finalizar la titulación"
+          "Universidad Complutense de Madrid · Tres años de estudios"
         ]
       ],
       "cert_title": "Certificados profesionales",
@@ -138,7 +136,6 @@
       "contact_label": "04 / Contacto",
       "contact_title": "Una conversación<br>sobre tecnología.",
       "contact_body": "Puedes encontrarme en LinkedIn o escribirme para intercambiar ideas sobre ingeniería, datos y sistemas de IA.",
-      "email": "Escríbeme",
       "atlas_headline": "IA, con<br><em>contexto.</em>",
       "ui": {
         "map_title": "Atlas de un sistema",
@@ -156,7 +153,8 @@
         "no_script": "Las explicaciones de todos los componentes se muestran a continuación."
       },
       "page_title": "Jing Guan Chong | Sistemas de IA y plataformas",
-      "meta_description": "Jing Guan Chong, Data & AI Engineer en Madrid. Sistemas de IA, plataformas de datos, integración empresarial y proyectos propios."
+      "meta_description": "Jing Guan Chong, Data & AI Engineer en Madrid. Sistemas de IA, plataformas de datos, integración empresarial y proyectos propios.",
+      "byline": "Construyo sistemas de IA, impulso proyectos propios y comparto conocimiento."
     },
     "en": {
       "nav": ["About", "Work", "Learning", "Contact"],
@@ -256,7 +254,7 @@
         ["Ingeniería Informática", "Universidad Politécnica de Madrid"],
         [
           "Physics studies",
-          "Universidad Complutense de Madrid · Three years of study; degree not completed"
+          "Universidad Complutense de Madrid · Three years of study"
         ]
       ],
       "cert_title": "Professional certificates",
@@ -280,7 +278,6 @@
       "contact_label": "04 / Contact",
       "contact_title": "A conversation<br>about technology.",
       "contact_body": "Find me on LinkedIn or write to exchange ideas about engineering, data and AI systems.",
-      "email": "Get in touch",
       "atlas_headline": "AI, with<br><em>context.</em>",
       "ui": {
         "map_title": "An atlas of a system",
@@ -298,7 +295,8 @@
         "no_script": "Explanations for every component are shown below."
       },
       "page_title": "Jing Guan Chong | AI Systems & Platform Engineer",
-      "meta_description": "Jing Guan Chong, Data & AI Engineer in Madrid. AI systems, data platforms, enterprise integration and independent projects."
+      "meta_description": "Jing Guan Chong, Data & AI Engineer in Madrid. AI systems, data platforms, enterprise integration and independent projects.",
+      "byline": "I build AI systems, develop my own projects and share knowledge."
     }
   }
 }

@@ -33,8 +33,8 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="${base}assets/css/main.css" />
-    <script src="${base}assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="${base}assets/css/main.css?v=$css_version" />
+    <script src="${base}assets/js/main.js?v=$js_version" defer></script>
   </head>
   <body class="atlas">
     <a class="skip" href="#main">$skip_label</a>
@@ -69,7 +69,7 @@
               />
               <div>
                 <strong>$name</strong>
-                <p>$roles</p>
+                <p>$byline</p>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@
             <div class="contact-links">
               <a href="$linkedin">LinkedIn <span aria-hidden="true">↗</span></a
               ><a href="mailto:$email_address"
-                >$email_label <span aria-hidden="true">↗</span></a
+                >$email_address <span aria-hidden="true">↗</span></a
               >
             </div>
           </div>

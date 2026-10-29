@@ -81,7 +81,7 @@ class StaticSiteTests(unittest.TestCase):
                     if reference.startswith("#"):
                         self.assertIn(reference[1:], ids)
                     elif not urlsplit(reference).scheme:
-                        self.assertTrue((path.parent / reference).exists(), reference)
+                        self.assertTrue((path.parent / urlsplit(reference).path).exists(), reference)
                     if tag in ("script", "img") or attrs.get("rel") in ("stylesheet", "preload"):
                         self.assertFalse(urlsplit(reference).netloc, reference)
                 for image in page.matching("img"):

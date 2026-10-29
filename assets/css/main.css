@@ -275,6 +275,7 @@ summary {
 }
 .contact-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   margin-top: 25px;
   font-size: 14px;
@@ -309,24 +310,25 @@ summary {
 .portrait-byline {
   margin-top: 38px;
   display: flex;
-  gap: 17px;
+  gap: 24px;
   align-items: center;
 }
 .portrait-byline img {
-  height: 88px;
-  width: 88px;
+  height: 176px;
+  width: 176px;
   flex-shrink: 0;
   object-fit: cover;
   object-position: center 20%;
   border-radius: 50%;
 }
 .portrait-byline strong {
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 600;
 }
 .portrait-byline p {
-  font-size: 11px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 1.65;
+  margin-top: 8px;
   color: var(--muted);
   max-width: 32ch;
 }
@@ -750,7 +752,7 @@ summary {
     grid-column: 1/-1;
   }
   .atlas-intro h1 {
-    grid-row: 2/4;
+    grid-row: 2;
     font-size: 84px;
   }
   .atlas-intro .hero-copy {
@@ -758,10 +760,13 @@ summary {
     font-size: 16px;
   }
   .atlas-intro .portrait-byline {
-    margin-top: 20px;
+    grid-column: 1/-1;
+    grid-row: 4;
+    margin-top: 32px;
   }
   .atlas-intro .cta {
     grid-column: 1;
+    grid-row: 3;
     width: max-content;
   }
   .atlas-lab {
@@ -904,17 +909,18 @@ summary {
   }
   .portrait-byline {
     margin-top: 25px !important;
+    gap: 20px;
   }
   .portrait-byline img {
-    height: 72px;
-    width: 72px;
+    height: 128px;
+    width: 128px;
   }
   .portrait-byline strong {
-    font-size: 13px;
+    font-size: 17px;
   }
   .portrait-byline p {
     max-width: 34ch;
-    font-size: 10px;
+    font-size: 13px;
   }
   .atlas-lab {
     padding: 18px 14px;

@@ -150,7 +150,12 @@
         "landmark_nav": "Principal",
         "landmark_language": "Idioma",
         "work_summary": "Sistemas empresariales, aprendizaje profesional y proyectos propios.",
-        "no_script": "Las explicaciones de todos los componentes se muestran a continuación."
+        "no_script": "Las explicaciones de todos los componentes se muestran a continuación.",
+        "technologies_title": "Tecnologías en práctica",
+        "technologies_note": "IA, datos e ingeniería de producto.",
+        "technology_ai": "Sistemas de IA",
+        "technology_data": "Plataformas de datos",
+        "technology_engineering": "Ingeniería de producto"
       },
       "page_title": "Jing Guan Chong | Sistemas de IA y plataformas",
       "meta_description": "Jing Guan Chong, Data & AI Engineer en Madrid. Sistemas de IA, plataformas de datos, integración empresarial y proyectos propios.",
@@ -292,11 +297,69 @@
         "landmark_nav": "Main",
         "landmark_language": "Language",
         "work_summary": "Enterprise systems, professional learning and projects of my own.",
-        "no_script": "Explanations for every component are shown below."
+        "no_script": "Explanations for every component are shown below.",
+        "technologies_title": "Technologies in practice",
+        "technologies_note": "AI, data and product engineering.",
+        "technology_ai": "AI systems",
+        "technology_data": "Data platforms",
+        "technology_engineering": "Product engineering"
       },
       "page_title": "Jing Guan Chong | AI Systems & Platform Engineer",
       "meta_description": "Jing Guan Chong, Data & AI Engineer in Madrid. AI systems, data platforms, enterprise integration and independent projects.",
       "byline": "I build AI systems, develop my own projects and share knowledge."
     }
-  }
+  },
+  "technologies": [
+    {
+      "key": "ai",
+      "items": [
+        {
+          "name": "Google ADK",
+          "icon": "agents"
+        },
+        {
+          "name": "RAG",
+          "icon": "retrieval"
+        },
+        {
+          "name": "MCP",
+          "icon": "protocol"
+        }
+      ]
+    },
+    {
+      "key": "data",
+      "items": [
+        {
+          "name": "Databricks",
+          "icon": "platform"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "database"
+        },
+        {
+          "name": "SQL",
+          "icon": "query"
+        }
+      ]
+    },
+    {
+      "key": "engineering",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "code"
+        },
+        {
+          "name": "FastAPI",
+          "icon": "api"
+        },
+        {
+          "name": "Docker",
+          "icon": "containers"
+        }
+      ]
+    }
+  ]
 }

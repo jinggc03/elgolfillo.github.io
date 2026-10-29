@@ -55,7 +55,7 @@ def network_graph():
     )
 
 
-def render_page(language, data, identity, template):
+def render_page(language, data, identity, technologies, template):
     ui = data["ui"]
     route, _, locale = LANGUAGES[language]
     base = "../" if route else ""
@@ -88,6 +88,19 @@ def render_page(language, data, identity, template):
         )
     values["languages"] = "".join(language_links)
     values["expertise"] = "".join(f"<span>{escape(item)}</span>" for item in data["expertise"])
+    technology_groups = []
+    for group in technologies:
+        items = "".join(
+            '<li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+            f'<use href="{base}assets/img/technology-icons.svg#{escape(item["icon"])}"/>'
+            f'</svg><span>{escape(item["name"])}</span></li>'
+            for item in group["items"]
+        )
+        title = escape(ui[f'technology_{group["key"]}'])
+        technology_groups.append(
+            f'<div class="technology-group"><h3>{title}</h3><ul>{items}</ul></div>'
+        )
+    values["technology_groups"] = "".join(technology_groups)
     values["work_items"] = "".join(
         '<details><summary>'
         f'<span class="context-no">{index:02}</span>'
@@ -161,7 +174,9 @@ def render_files():
     source = json.loads((ROOT / "content/site.json").read_text(encoding="utf-8"))
     template = Template((ROOT / "templates/page.html").read_text(encoding="utf-8"))
     result = {
-        f"{route}index.html": render_page(code, source["locales"][code], source["identity"], template)
+        f"{route}index.html": render_page(
+            code, source["locales"][code], source["identity"], source["technologies"], template
+        )
         for code, (route, _, _) in LANGUAGES.items()
     }
     origin = source["identity"]["url"]

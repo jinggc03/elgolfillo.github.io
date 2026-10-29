@@ -14,6 +14,7 @@
   box-sizing: border-box;
 }
 html {
+  color-scheme: dark;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
 }
@@ -22,13 +23,15 @@ body {
   font:
     17px/1.6 DM,
     sans-serif;
-  --paper: #e8eef5;
-  --ink: #152842;
-  --muted: #58677b;
-  --accent: #2454db;
-  --line: #c9d3e0;
-  background: var(--paper);
-  color: var(--ink);
+  --background: #101722;
+  --surface: #162235;
+  --control-border: #61748f;
+  --text: #cbd5e1;
+  --muted: #9bacbf;
+  --accent: #94b1ff;
+  --line: #334156;
+  background: var(--background);
+  color: var(--text);
 }
 a {
   color: inherit;
@@ -83,7 +86,7 @@ summary {
 }
 ::selection {
   background: var(--accent);
-  color: var(--paper);
+  color: var(--background);
 }
 .wrap {
   max-width: 1512px;
@@ -104,8 +107,8 @@ summary {
   z-index: 100;
   top: -100px;
   left: 20px;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--text);
+  color: var(--background);
   padding: 12px 22px;
 }
 .skip:focus {
@@ -163,7 +166,7 @@ summary {
   align-items: center;
   padding: 14px 22px;
   background: var(--accent);
-  color: var(--paper);
+  color: var(--background);
   font-size: 13px;
   text-decoration: none;
   font-weight: 600;
@@ -171,8 +174,8 @@ summary {
   min-height: 48px;
 }
 .cta:hover {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--text);
+  color: var(--background);
 }
 .link-arrow {
   font-size: 20px;
@@ -327,8 +330,8 @@ summary {
   max-width: 32ch;
 }
 .atlas-lab {
-  background: #dde7f5;
-  border: 1px solid #d4ddf1;
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-radius: 8px;
   padding: 22px 26px;
   position: relative;
@@ -339,7 +342,7 @@ summary {
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #526681;
+  color: var(--muted);
 }
 .lab-heading strong {
   color: var(--accent);
@@ -349,7 +352,7 @@ summary {
   height: 380px;
   position: relative;
   margin: 16px -5px;
-  background-image: radial-gradient(#b8c7e3 0.7px, transparent 0.7px);
+  background-image: radial-gradient(#344761 0.7px, transparent 0.7px);
   background-size: 18px 18px;
 }
 .network svg {
@@ -360,7 +363,7 @@ summary {
   inset: 0;
 }
 .edge {
-  stroke: #a8b8d4;
+  stroke: #506581;
   stroke-width: 1.4;
   fill: none;
   vector-effect: non-scaling-stroke;
@@ -375,13 +378,13 @@ summary {
 .map-node {
   position: absolute;
   transform: translate(-50%, -50%);
-  background: var(--paper);
-  border: 1px solid #afbfdd;
+  background: var(--background);
+  border: 1px solid var(--control-border);
   padding: 13px 15px;
   border-radius: 6px;
   min-width: 108px;
   text-align: left;
-  box-shadow: 0 3px 0 #dce5f6;
+  box-shadow: 0 3px 0 #0d1521;
   transition:
     box-shadow 0.2s,
     border-color 0.2s;
@@ -390,7 +393,7 @@ summary {
   display: block;
   font-size: 9px;
   letter-spacing: 0.08em;
-  color: #5b6b83;
+  color: var(--muted);
   margin-bottom: 5px;
 }
 .map-node strong {
@@ -400,12 +403,12 @@ summary {
 }
 .map-node[aria-pressed="true"] {
   background: var(--accent);
-  color: #fff;
+  color: var(--background);
   border-color: var(--accent);
-  box-shadow: 0 5px 0 #aec1f1;
+  box-shadow: 0 5px 0 #34466c;
 }
 .map-node[aria-pressed="true"] small {
-  color: #e1e9ff;
+  color: var(--background);
 }
 .node-process {
   left: 50%;
@@ -433,7 +436,7 @@ summary {
   top: 82%;
 }
 .map-info {
-  border-top: 1px solid #bccae3;
+  border-top: 1px solid var(--line);
   padding-top: 20px;
   min-height: 150px;
   display: grid;
@@ -451,13 +454,13 @@ summary {
 .map-info p {
   font-size: 13px;
   line-height: 1.65;
-  color: #53647e;
+  color: var(--muted);
   margin-top: 7px;
   max-width: 60ch;
 }
 .lab-note {
   font-size: 10px;
-  color: #53647e;
+  color: var(--muted);
   padding-top: 16px;
 }
 .domain-strip {
@@ -509,12 +512,12 @@ summary {
   gap: 15px;
   margin-top: 21px;
   font-size: 10px;
-  color: #53647e;
+  color: var(--muted);
 }
 .walk-controls button {
   background: transparent;
-  border: 1px solid #9badcf;
-  color: #2147aa;
+  border: 1px solid var(--control-border);
+  color: var(--text);
   padding: 7px 10px;
   font-size: 10px;
   min-height: 36px;
@@ -523,7 +526,7 @@ summary {
   align-items: center;
 }
 .walk-controls button:hover {
-  background: #dce6fb;
+  background: #253654;
 }
 .edge.route-flash {
   animation: connection-pulse 0.7s ease-out 1;
@@ -531,11 +534,11 @@ summary {
 @keyframes connection-pulse {
   0% {
     stroke-width: 5;
-    stroke: #6487f0;
+    stroke: #bfd0ff;
   }
   100% {
     stroke-width: 2.4;
-    stroke: #2454db;
+    stroke: var(--accent);
   }
 }
 .about-layout {
@@ -557,7 +560,7 @@ summary {
 }
 .about-story .lead {
   font-size: 22px;
-  color: var(--ink);
+  color: var(--text);
   line-height: 1.55;
   margin-bottom: 24px;
 }
@@ -632,7 +635,7 @@ summary {
 }
 .education-list strong {
   display: block;
-  color: var(--ink);
+  color: var(--text);
   font-weight: 400;
   font-size: 16px;
 }
@@ -1091,6 +1094,17 @@ summary {
   }
 }
 @media print {
+  html {
+    color-scheme: light;
+  }
+  body {
+    --background: #fff;
+    --surface: #f0f2f5;
+    --text: #152842;
+    --muted: #58677b;
+    --accent: #2454db;
+    --line: #c9d3e0;
+  }
   .header-right,
   .cta,
   .walk-controls,

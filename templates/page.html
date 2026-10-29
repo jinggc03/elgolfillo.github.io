@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="$language">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>$page_title</title>
+    <meta name="description" content="$meta_description" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="$canonical" />
+    <link rel="alternate" hreflang="es" href="$site_url" />
+    <link rel="alternate" hreflang="en" href="${site_url}en/" />
+    <link rel="alternate" hreflang="x-default" href="$site_url" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="$page_title" />
+    <meta property="og:description" content="$meta_description" />
+    <meta property="og:url" content="$canonical" />
+    <meta property="og:image" content="$image_url" />
+    <meta property="og:image:alt" content="$portrait_alt" />
+    <meta property="og:locale" content="$og_locale" />
+    <meta property="og:locale:alternate" content="$og_alternate" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="$image_url" />
+    <meta name="twitter:image:alt" content="$portrait_alt" />
+    <meta name="theme-color" content="#e8eef5" />
+    <script type="application/ld+json">
+      $structured_data
+    </script>
+    <link rel="icon" href="${base}favicon.ico" />
+    <link
+      rel="preload"
+      href="${base}assets/fonts/dm-sans-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="${base}assets/css/main.css" />
+    <script src="${base}assets/js/main.js" defer></script>
+  </head>
+  <body class="atlas">
+    <a class="skip" href="#main">$skip_label</a>
+    <div class="wrap">
+      <header class="header">
+        <a class="brand" href="./">$name <span aria-hidden="true">/</span></a>
+        <div class="header-right">
+          <nav aria-label="$navigation_label">$navigation</nav>
+          <nav class="languages" aria-label="$language_label">$languages</nav>
+        </div>
+      </header>
+    </div>
+    <main id="main" tabindex="-1">
+      <div class="wrap">
+        <section class="atlas-hero" aria-labelledby="hero-title">
+          <div class="atlas-intro">
+            <p class="eyebrow hero-meta">$descriptor</p>
+            <h1 id="hero-title">$headline</h1>
+            <p class="hero-copy">$summary</p>
+            <a class="cta" href="#work"
+              >$work_action<span class="link-arrow" aria-hidden="true"
+                >↗</span
+              ></a
+            >
+            <div class="portrait-byline">
+              <img
+                src="${base}$image_path"
+                width="1042"
+                height="966"
+                alt="$portrait_alt"
+                fetchpriority="high"
+              />
+              <div>
+                <strong>$name</strong>
+                <p>$roles</p>
+              </div>
+            </div>
+          </div>
+          <section
+            class="atlas-lab"
+            id="approach"
+            data-switcher
+            data-start="$walk_start"
+            data-free="$walk_free"
+            data-next="$walk_next"
+            data-restart="$walk_restart"
+            aria-labelledby="map-title"
+          >
+            <div class="lab-heading">
+              <h2 id="map-title">$map_title</h2>
+              <span>$map_hint</span>
+            </div>
+            <div class="walk-controls">
+              <button type="button" data-walk disabled>
+                $walk_start <span aria-hidden="true">↗</span></button
+              ><span data-walk-status>$walk_hint</span>
+            </div>
+            <noscript><p class="noscript-note">$no_script</p></noscript>
+            <div class="network" role="group" aria-label="$map_title">
+              $graph$node_buttons
+            </div>
+            <div aria-live="polite" aria-atomic="true">$node_panels</div>
+            <p class="lab-note">$map_note</p>
+          </section>
+        </section>
+        <div class="domain-strip"><span>$location</span>$expertise</div>
+        <section
+          class="section about-layout"
+          id="about"
+          aria-labelledby="about-title"
+        >
+          <div>
+            <p class="eyebrow">$about_label</p>
+            <h2 id="about-title">$about_title</h2>
+          </div>
+          <div class="about-story">
+            <p class="lead">$about_lead</p>
+            <p>$about_body</p>
+            <div class="expertise">$expertise</div>
+          </div>
+        </section>
+        <section class="section" id="work" aria-labelledby="work-title">
+          <div class="section-intro">
+            <div>
+              <p class="eyebrow">$work_label</p>
+              <h2 id="work-title">$work_title</h2>
+            </div>
+            <p>$work_summary</p>
+          </div>
+          <div class="context-list">$work_items</div>
+        </section>
+        <section
+          class="section learning-layout"
+          id="learning"
+          aria-labelledby="learning-title"
+        >
+          <div>
+            <p class="eyebrow">$learn_label</p>
+            <h2 id="learning-title">$learn_title</h2>
+          </div>
+          <div>
+            <p class="learning-intro">$learn_intro</p>
+            $education
+          </div>
+        </section>
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+          <div>
+            <p class="eyebrow">$contact_label</p>
+            <h2 id="contact-title">$contact_title</h2>
+          </div>
+          <div>
+            <p>$contact_body</p>
+            <div class="contact-links">
+              <a href="$linkedin">LinkedIn <span aria-hidden="true">↗</span></a
+              ><a href="mailto:$email_address"
+                >$email_label <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="wrap">
+      <footer class="footer">
+        <span>$name · $location</span><span>$descriptor</span>
+      </footer>
+    </div>
+  </body>
+</html>

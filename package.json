@@ -1,0 +1,18 @@
+{
+  "name": "jing-guan-chong-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_site.py",
+    "check": "python3 -m unittest discover -s tests -p 'test_*.py' && node --check assets/js/main.js",
+    "format": "prettier --write assets/css/main.css assets/js/main.js content/site.json package.json playwright.config.js tests/site.spec.js .github/workflows/check.yml templates/page.html",
+    "format:check": "prettier --check assets/css/main.css assets/js/main.js content/site.json package.json playwright.config.js tests/site.spec.js .github/workflows/check.yml templates/page.html",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "prettier": "3.9.10"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jingguanchong.com/sitemap.xml

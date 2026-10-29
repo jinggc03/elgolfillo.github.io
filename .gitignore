@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+.playwright-mcp/
+playwright-report/
+test-results/
+.DS_Store
+/docs/redesign/

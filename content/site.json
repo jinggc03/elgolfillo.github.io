@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "name": "Jing Guan Chong",
+    "descriptor": "AI Systems & Platform Engineer",
+    "job_title": "Data & AI Engineer",
+    "employer": "Decathlon",
+    "email": "jingguan.chong@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jingchong/",
+    "url": "https://jingguanchong.com/",
+    "image": "assets/img/portrait/main_photo.webp"
+  },
+  "locales": {
+    "es": {
+      "nav": ["Sobre mí", "Trabajo", "Aprendizaje", "Contacto"],
+      "skip": "Saltar al contenido",
+      "summary": "Diseño y desarrollo sistemas de IA, plataformas de datos y productos digitales. Mi trabajo conecta agentes, APIs e infraestructura con los procesos y las personas que los utilizan.",
+      "actions": ["Conocer mi trabajo", "Sobre mí"],
+      "location": "Madrid, España",
+      "portrait": "Retrato de Jing Guan Chong",
+      "about_label": "01 / Trayectoria",
+      "about_title": "La tecnología empieza<br>por entender el contexto.",
+      "about_lead": "Mi recorrido pasa por operaciones, sistemas empresariales, automatización, datos e inteligencia artificial.",
+      "about_body": "Esa base guía mi forma de trabajar: entender el problema, conectar las piezas y construir soluciones que puedan mantenerse y evolucionar. Me interesa lo que sucede cuando la IA se encuentra con los sistemas, las personas y las restricciones del mundo real.",
+      "expertise": [
+        "Sistemas empresariales",
+        "Datos e integración",
+        "IA aplicada"
+      ],
+      "work_label": "02 / Trabajo actual",
+      "work_title": "Un recorrido.<br>Varios contextos.",
+      "work": [
+        [
+          "Decathlon",
+          "Data & AI Engineer",
+          "Desarrollo de soluciones de datos e IA en un entorno internacional de retail y logística. Trabajo en plataformas, integración de sistemas y automatización.",
+          "Datos · Sistemas empresariales · IA aplicada"
+        ],
+        [
+          "MIT Professional Education",
+          "Learning Facilitator",
+          "Acompañamiento y mentoring a profesionales en programas de IA generativa, IA agéntica y transformación digital. Conectar el aprendizaje técnico con su aplicación en el trabajo.",
+          "Colaboración en programas de formación"
+        ],
+        [
+          "StartMotion Auto",
+          "Cofundador de un proyecto en desarrollo · Desde 2025",
+          "Producto digital para la compraventa de vehículos. Trabajo en backend, frontend, arquitectura e infraestructura, y en flujos agénticos con RAG y MCP.",
+          "Producto SaaS · Ingeniería de software · Sistemas agénticos"
+        ],
+        [
+          "Inferencia Técnica",
+          "Iniciativa en preparación",
+          "Un proyecto orientado a ingeniería, productos tecnológicos e inteligencia artificial, actualmente en definición.",
+          "Ingeniería · Productos tecnológicos · IA"
+        ]
+      ],
+      "nodes": [
+        {
+          "key": "process",
+          "number": "01",
+          "label": "Procesos",
+          "category": "CONTEXTO",
+          "title": "Empezar por el problema.",
+          "body": "El objetivo y las restricciones del proceso orientan las decisiones. Antes de elegir un modelo, conviene definir qué tiene que hacer el sistema."
+        },
+        {
+          "key": "data",
+          "number": "02",
+          "label": "Datos",
+          "category": "CONOCIMIENTO",
+          "title": "Dar contexto a la IA.",
+          "body": "Las fuentes, los permisos y la calidad de los datos condicionan el resultado. La recuperación con RAG añade información; también necesita validación."
+        },
+        {
+          "key": "agents",
+          "number": "03",
+          "label": "Agentes",
+          "category": "ORQUESTACIÓN",
+          "title": "Coordinar con límites claros.",
+          "body": "Los agentes conectan modelos, contexto y herramientas. Las tareas delimitadas, los permisos y la revisión de acciones forman parte de su diseño."
+        },
+        {
+          "key": "apis",
+          "number": "04",
+          "label": "APIs",
+          "category": "HERRAMIENTAS",
+          "title": "Conectar con el mundo real.",
+          "body": "APIs y protocolos como MCP permiten acceder a herramientas. Los contratos, permisos y errores también forman parte de esa integración."
+        },
+        {
+          "key": "human",
+          "number": "05",
+          "label": "Revisión humana",
+          "category": "CRITERIO",
+          "title": "Saber cuándo intervenir.",
+          "body": "La autonomía necesita límites. Las decisiones de mayor impacto requieren criterios de escalado y mecanismos para revisar lo que hace el sistema."
+        },
+        {
+          "key": "observe",
+          "number": "06",
+          "label": "Observabilidad",
+          "category": "OPERACIÓN",
+          "title": "Entender qué ha ocurrido.",
+          "body": "Trazas, errores y evaluaciones permiten examinar el comportamiento de un sistema. Son una base para detectar problemas y mejorar su funcionamiento."
+        }
+      ],
+      "learn_label": "03 / Aprendizaje",
+      "learn_title": "Aprender. Aplicar.<br>Compartir.",
+      "learn_intro": "La formación continua acompaña mi evolución profesional. Desde 2020 he completado dos certificados profesionales de MIT Professional Education y un programa de IA generativa. Como Learning Facilitator, acompaño a otros profesionales en su aprendizaje.",
+      "education_title": "Formación universitaria",
+      "education": [
+        ["Ingeniería Informática", "Universidad Politécnica de Madrid"],
+        [
+          "Estudios de Ciencias Físicas",
+          "Universidad Complutense de Madrid · Tres años de estudios"
+        ]
+      ],
+      "cert_title": "Certificados profesionales",
+      "certs": [
+        [
+          "Digital Transformation in the AI Age",
+          "MIT Professional Education · 2020–2021"
+        ],
+        [
+          "Management of Technology: Roadmapping & Development",
+          "MIT Professional Education · 2021–2022"
+        ]
+      ],
+      "program_title": "Programas especializados",
+      "programs": [
+        [
+          "Applied Generative AI for Digital Transformation",
+          "MIT Professional Education · 2024"
+        ]
+      ],
+      "contact_label": "04 / Contacto",
+      "contact_title": "Una conversación<br>sobre tecnología.",
+      "contact_body": "Puedes encontrarme en LinkedIn o escribirme para intercambiar ideas sobre ingeniería, datos y sistemas de IA.",
+      "atlas_headline": "IA, con<br><em>contexto.</em>",
+      "ui": {
+        "map_title": "Atlas de un sistema",
+        "map_hint": "Selecciona un componente",
+        "walk_start": "Recorrer una petición",
+        "walk_hint": "6 pasos · recorrido conceptual",
+        "walk_next": "Siguiente: ",
+        "walk_restart": "Volver al principio",
+        "walk_free": "Exploración libre · esquema conceptual",
+        "map_note": "Esquema conceptual. No representa una arquitectura interna de una organización.",
+        "approach": "Enfoque",
+        "landmark_nav": "Principal",
+        "landmark_language": "Idioma",
+        "work_summary": "Sistemas empresariales, aprendizaje profesional y proyectos propios.",
+        "no_script": "Las explicaciones de todos los componentes se muestran a continuación.",
+        "technologies_title": "Tecnologías y capacidades",
+        "technologies_note": "IA, datos e ingeniería de producto.",
+        "technology_ai": "Sistemas de IA",
+        "technology_data": "Plataformas de datos",
+        "technology_engineering": "Ingeniería de producto"
+      },
+      "page_title": "Jing Guan Chong | Sistemas de IA y plataformas",
+      "meta_description": "Jing Guan Chong, Data & AI Engineer en Madrid. Sistemas de IA, plataformas de datos, integración empresarial y proyectos propios.",
+      "byline": "Construyo sistemas de IA, impulso proyectos propios y comparto conocimiento."
+    },
+    "en": {
+      "nav": ["About", "Work", "Learning", "Contact"],
+      "skip": "Skip to content",
+      "summary": "I design and build AI systems, data platforms and digital products. My work connects agents, APIs and infrastructure with the processes and people that use them.",
+      "actions": ["Explore my work", "About me"],
+      "location": "Madrid, Spain",
+      "portrait": "Portrait of Jing Guan Chong",
+      "about_label": "01 / Background",
+      "about_title": "Technology starts<br>with understanding context.",
+      "about_lead": "My background spans operations, enterprise systems, automation, data and artificial intelligence.",
+      "about_body": "That experience shapes how I work: understand the problem, connect the pieces and build solutions that can be maintained and evolve. I am interested in what happens when AI meets the systems, people and constraints of the real world.",
+      "expertise": ["Enterprise systems", "Data & integration", "Applied AI"],
+      "work_label": "02 / Current work",
+      "work_title": "One journey.<br>Several contexts.",
+      "work": [
+        [
+          "Decathlon",
+          "Data & AI Engineer",
+          "Building data and AI solutions in an international retail and logistics environment. Work across platforms, systems integration and automation.",
+          "Data · Enterprise systems · Applied AI"
+        ],
+        [
+          "MIT Professional Education",
+          "Learning Facilitator",
+          "Supporting and mentoring professionals in generative AI, agentic AI and digital transformation programmes. Connecting technical learning with its application at work.",
+          "Collaboration on professional education programmes"
+        ],
+        [
+          "StartMotion Auto",
+          "Cofounder of a project in development · Since 2025",
+          "A digital product for buying and selling vehicles. Work across backend, frontend, architecture and infrastructure, alongside agent workflows with RAG and MCP.",
+          "SaaS product · Software engineering · Agentic systems"
+        ],
+        [
+          "Inferencia Técnica",
+          "Initiative in preparation",
+          "A project focused on engineering, technology products and artificial intelligence, currently being defined.",
+          "Engineering · Technology products · AI"
+        ]
+      ],
+      "nodes": [
+        {
+          "key": "process",
+          "number": "01",
+          "label": "Processes",
+          "category": "CONTEXT",
+          "title": "Start with the problem.",
+          "body": "The objective and constraints of a process guide design decisions. Before choosing a model, define what the system needs to do."
+        },
+        {
+          "key": "data",
+          "number": "02",
+          "label": "Data",
+          "category": "KNOWLEDGE",
+          "title": "Give AI the context it needs.",
+          "body": "Sources, permissions and data quality shape the result. Retrieval with RAG adds information; that information also needs validation."
+        },
+        {
+          "key": "agents",
+          "number": "03",
+          "label": "Agents",
+          "category": "ORCHESTRATION",
+          "title": "Coordinate within clear boundaries.",
+          "body": "Agents connect models, context and tools. Bounded tasks, permissions and action review are part of their design."
+        },
+        {
+          "key": "apis",
+          "number": "04",
+          "label": "APIs",
+          "category": "TOOLS",
+          "title": "Connect to the real world.",
+          "body": "APIs and protocols such as MCP provide access to tools. Contracts, permissions and errors are part of that integration."
+        },
+        {
+          "key": "human",
+          "number": "05",
+          "label": "Human review",
+          "category": "JUDGEMENT",
+          "title": "Know when to step in.",
+          "body": "Autonomy needs boundaries. Higher-impact decisions call for escalation criteria and mechanisms to review what the system does."
+        },
+        {
+          "key": "observe",
+          "number": "06",
+          "label": "Observability",
+          "category": "OPERATIONS",
+          "title": "Understand what happened.",
+          "body": "Traces, errors and evaluations help examine a system’s behaviour. They provide a basis for identifying problems and improving how it works."
+        }
+      ],
+      "learn_label": "03 / Learning",
+      "learn_title": "Learn. Apply.<br>Share.",
+      "learn_intro": "Continuous learning accompanies my professional development. Since 2020, I have completed two MIT Professional Education professional certificates and a generative AI programme. As a Learning Facilitator, I support other professionals in their learning.",
+      "education_title": "University education",
+      "education": [
+        ["Ingeniería Informática", "Universidad Politécnica de Madrid"],
+        [
+          "Physics studies",
+          "Universidad Complutense de Madrid · Three years of study"
+        ]
+      ],
+      "cert_title": "Professional certificates",
+      "certs": [
+        [
+          "Digital Transformation in the AI Age",
+          "MIT Professional Education · 2020–2021"
+        ],
+        [
+          "Management of Technology: Roadmapping & Development",
+          "MIT Professional Education · 2021–2022"
+        ]
+      ],
+      "program_title": "Specialised programmes",
+      "programs": [
+        [
+          "Applied Generative AI for Digital Transformation",
+          "MIT Professional Education · 2024"
+        ]
+      ],
+      "contact_label": "04 / Contact",
+      "contact_title": "A conversation<br>about technology.",
+      "contact_body": "Find me on LinkedIn or write to exchange ideas about engineering, data and AI systems.",
+      "atlas_headline": "AI, with<br><em>context.</em>",
+      "ui": {
+        "map_title": "An atlas of a system",
+        "map_hint": "Select a component",
+        "walk_start": "Walk through a request",
+        "walk_hint": "6 steps · conceptual walkthrough",
+        "walk_next": "Next: ",
+        "walk_restart": "Back to the start",
+        "walk_free": "Free exploration · conceptual diagram",
+        "map_note": "Conceptual diagram. It does not represent an organisation’s internal architecture.",
+        "approach": "Approach",
+        "landmark_nav": "Main",
+        "landmark_language": "Language",
+        "work_summary": "Enterprise systems, professional learning and projects of my own.",
+        "no_script": "Explanations for every component are shown below.",
+        "technologies_title": "Technologies & capabilities",
+        "technologies_note": "AI, data and product engineering.",
+        "technology_ai": "AI systems",
+        "technology_data": "Data platforms",
+        "technology_engineering": "Product engineering"
+      },
+      "page_title": "Jing Guan Chong | AI Systems & Platform Engineer",
+      "meta_description": "Jing Guan Chong, Data & AI Engineer in Madrid. AI systems, data platforms, enterprise integration and independent projects.",
+      "byline": "I build AI systems, develop my own projects and share knowledge."
+    }
+  },
+  "technologies": [
+    {
+      "key": "ai",
+      "items": [
+        {
+          "name": "Google ADK",
+          "icon": "agents"
+        },
+        {
+          "name": "RAG",
+          "icon": "retrieval"
+        },
+        {
+          "name": "MCP",
+          "icon": "protocol"
+        }
+      ]
+    },
+    {
+      "key": "data",
+      "items": [
+        {
+          "name": "Databricks",
+          "icon": "platform"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "database"
+        },
+        {
+          "name": "SQL",
+          "icon": "query"
+        }
+      ]
+    },
+    {
+      "key": "engineering",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "code"
+        },
+        {
+          "name": "FastAPI",
+          "icon": "api"
+        },
+        {
+          "name": "Docker",
+          "icon": "containers"
+        }
+      ]
+    }
+  ]
+}
